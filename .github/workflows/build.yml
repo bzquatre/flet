@@ -8,6 +8,7 @@ on:
 
 env:
   PYTHON_VERSION: "3.12"
+  PYTHONIOENCODING: utf-8
 
 jobs:
   build-windows:

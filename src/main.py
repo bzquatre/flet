@@ -7,7 +7,7 @@ def main(page: ft.Page):
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
     page.add(
-        ft.Text("Hello, World! 👋", size=32, weight=ft.FontWeight.BOLD),
+        ft.Text("Hello, World!", size=32, weight=ft.FontWeight.BOLD),
         ft.Text("Built with Flet 1.0"),
     )
 
