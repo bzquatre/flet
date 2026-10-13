@@ -1,0 +1,17 @@
+[project]
+name = "hello-flet"
+version = "1.0.0"
+description = "Hello World app built with Flet 1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "flet>=1.0.0",
+]
+
+[tool.flet]
+org = "com.example"
+product = "Hello Flet"
+company = "Example"
+copyright = "Copyright (C) 2026 Example"
+
+[tool.flet.app]
+path = "src"
